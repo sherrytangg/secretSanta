@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<h1>Christmas Secret Santa</h1>
+</head>
+
+<body>
+<p>Who are you?</p>
+
+<form action="#" method="post">
+<select id="SecretSanta">
+  <option value="Alan"> Alan Tai</option>
+  <option value="Andy"> Andy Cheung</option>
+  <option value="LilyS"> Lily Siu</option>
+  <option value="LilyT"> Lily Tran</option>
+  <option value="Ivy"> Ivy Lok</option>
+  <option value="Sherry"> Sherry Tang</option>
+</select>
+</form>
+
+<button type="button" onclick="myFunction()">Give me My Secret Santa!</button>
+
+<p id="demo"></p>
+
+<script>
+
+function myFunction(){
+	var x = document.getElementById("SecretSanta").value;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
+
+
